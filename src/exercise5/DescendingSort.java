@@ -18,8 +18,8 @@ public class DescendingSort {
         }
 
         // Sort numbers in descending order
-         for (int index = 0; index < numbers.length ; index++){
-            for (int j = 0; j < numbers.length - j - 1; j++){
+         for (int index = 0; index < numbers.length - 1 ; index++){
+            for (int j = 0; j < numbers.length - 1 - index; j++){
               if(numbers[j]<numbers[j+1]){
                 int temp = numbers[j];
                 numbers[j] = numbers[j+1];
